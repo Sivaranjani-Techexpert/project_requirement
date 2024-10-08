@@ -30,10 +30,10 @@ To add collaborators to your repository:
 ---
 
 By following these steps, you'll be able to set up your project repository and work with collaborators on GitHub!
+## 3. Requiements
+Passenger-Side Power Window System - Project Requirements
 
-# Passenger-Side Power Window System - Project Requirements
-
-## 1. High-Level Requirements (HLR)
+### 1. High-Level Requirements (HLR)
 The following high-level requirements describe the functionality expected from the passenger-side power window system:
 
 1. **Window Control**  
@@ -56,36 +56,36 @@ The following high-level requirements describe the functionality expected from t
 
 ---
 
-## 2. Low-Level Requirements (LLR)
+### 2. Low-Level Requirements (LLR)
 The following low-level requirements detail how the high-level requirements will be technically implemented:
 
-### 2.1 Motor Control
+#### 2.1 Motor Control
 - The motor should receive commands from the microcontroller based on the input from the passenger’s window switch.
 - PWM (Pulse Width Modulation) should be used to control the motor's speed for smooth operation.
 
-### 2.2 Switch Interface
+#### 2.2 Switch Interface
 - The passenger window switch should have two states: up and down.
 - The microcontroller should detect the switch position (pressed or released) and send appropriate commands to the motor driver.
 
-### 2.3 Obstacle Detection
+#### 2.3 Obstacle Detection
 - A current sensor should be integrated with the motor driver to detect any significant increase in motor current, signaling an obstacle in the window path.
 - When an obstacle is detected, the control algorithm should reverse the motor direction within 200ms to prevent injury or damage.
 
-### 2.4 Communication with Driver’s Control Unit
+#### 2.4 Communication with Driver’s Control Unit
 - The passenger window switch must send signals via the CAN bus to the driver’s control unit to determine whether the child lock feature is active.
 
-### 2.5 Power Management
+#### 2.5 Power Management
 - When the vehicle ignition is turned off, the passenger window system should remain powered for 30 seconds, then enter a low-power sleep mode.
 
-### 2.6 Safety Features
+#### 2.6 Safety Features
 - The system should have overcurrent protection to prevent damage to the motor during operation.
 
 ---
 
-## 3. Non-Functional Requirements (NFR)
+### 3. Non-Functional Requirements (NFR)
 Non-functional requirements define the overall quality attributes of the system, such as performance, reliability, and hardware/software specifications:
 
-### 3.1 Hardware Requirements
+#### 3.1 Hardware Requirements
 - **Microcontroller**:  
   - 8-bit or 16-bit microcontroller with CAN bus support for communication.
   - Minimum of 2 PWM channels for motor control.
@@ -100,7 +100,7 @@ Non-functional requirements define the overall quality attributes of the system,
 - **Switches**:  
   - Durable, automotive-grade window switches with tactile feedback.
 
-### 3.2 Software Requirements
+#### 3.2 Software Requirements
 - **Control Algorithm**:  
   - The software should have a real-time operating system (RTOS) or time-sensitive task scheduler to handle window control inputs, motor control, and sensor monitoring in a deterministic manner.
 
