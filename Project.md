@@ -30,7 +30,7 @@ To add collaborators to your repository:
 ---
 
 By following these steps, you'll be able to set up your project repository and work with collaborators on GitHub!
-## 3. Requiements
+## 3. Requirements
 Passenger-Side Power Window System - Project Requirements
 
 ### 1. High-Level Requirements (HLR)
