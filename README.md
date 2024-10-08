@@ -1,4 +1,36 @@
-# project_requirement
+# Project Submission format
+## 1. Create a Repository on GitHub
+
+Follow these steps to create a repository on GitHub:
+
+1. Go to [GitHub](https://github.com/).
+2. Sign in with your credentials (or [create an account](https://github.com/join) if you don't have one).
+3. Click on the `+` icon in the upper right corner and select **New repository**.
+4. Name your repository (e.g., `C_Electronics_Project`).
+5. Add a description (optional).
+6. Choose the repository type:
+    - **Public**: Anyone can see it.
+    - **Private**: Only collaborators can see it.
+7. Initialize the repository by checking the "Add a README file" box.
+8. Click **Create repository**.
+
+---
+
+## 2. Add Collaborators
+
+To add collaborators to your repository:
+
+1. Go to your repository’s page.
+2. Click on the **Settings** tab.
+3. In the left-hand sidebar, click **Collaborators and Teams**.
+4. In the "Collaborators" section, enter the GitHub usernames or email addresses of the people you want to add as collaborators.
+5. Click **Add Collaborator**.
+6. Each collaborator will receive an invitation to collaborate on your project. They need to accept it.
+
+---
+
+By following these steps, you'll be able to set up your project repository and work with collaborators on GitHub!
+
 # Passenger-Side Power Window System - Project Requirements
 
 ## 1. High-Level Requirements (HLR)
@@ -85,4 +117,4 @@ Non-functional requirements define the overall quality attributes of the system,
 ---
 
 ## 4. Conclusion
-This document outlines the high-level, low-level, and non-functional requirements for the passenger-side power window system. The project will ensure compliance with automotive safety standards and deliver a reliable, user-friendly system.
+This document outlines the high-level, low-level, and non-functional requirements for the passenger-side power window system. 
